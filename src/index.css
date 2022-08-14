@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  /* background-color: red  ; */
+  /* height: 200vh; */
+}
+
+:root{
+  --primary: #214842;
+  --secondary: #efc368;
+  --tertiary: #fafaf5d3;
+  --light: #258f67;
+
+  --text-primary: #214842;
+  --text-secondary: #258f67;
+
+  --transition: all 400ms ease;
+}
+
+.container{
+  margin: 0 4rem;
+}
+.btn{
+  padding: 0.6rem 1rem;
+  width: max-content;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.btn-primary{
+  border: 3px solid transparent;
+  background: var(--primary);
+  transition: var(--transition);
+  color: var(--secondary);
+  border-radius: 3rem;
+
+}
+.btn-primary:hover{
+  border-color: var(--primary);
+  background: transparent;
+  transition: var(--transition);
+  color: var(--primary);
+}
+
+.btn-secondary{
+  border: 3px solid transparent;
+  background: var(--secondary);
+  border-radius: 3rem;
+  transition: var(--transition);
+  color: var(--primary);
+}
+.btn-secondary:hover{
+  border-color: var(--secondary);
+  color: var(--secondary);
+  background: transparent;
+  transition: var(--transition);
+}

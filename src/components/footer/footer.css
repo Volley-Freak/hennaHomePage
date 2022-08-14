@@ -1,0 +1,115 @@
+footer{
+    /* margin-top: 10rem; */
+    height: 60vh;
+    background: var(--primary);
+    padding: 0 3rem;
+    color: var(--tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-footer{
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.main-footer > div{
+    width: 25%;
+}
+.logo{
+    margin-top: -20px;
+}
+.logo img{
+    width: 65%;
+}
+.company-info .description{
+    margin : 1rem 0;
+    padding-right: 2rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+
+}
+.social-icons{
+    margin-top: 1.5rem;
+}
+.social-icons a{
+    font-size: 1.5rem;
+    color: var(--secondary);
+    margin-right: 1rem;
+}
+
+footer h3{
+    margin-bottom: 1.2rem;
+    color: white;
+}
+.contact-info > div{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.contact-info > div span{
+    margin-left: 0.5rem;
+}
+.contact-info .icon{
+    font-size: 1.3rem;
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 0.5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.contact-info h5{
+    margin-bottom: 3px;
+    letter-spacing: 0.5px;
+}
+
+/****** SHOP PRODUCTS *******/
+.shop-products li{
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.shop-products li:hover{
+    color: white;
+    transition: var(--transition);
+}
+.shop-products .icon{
+    color: var(--secondary);
+    margin-right: 5px;
+}
+
+.instagram .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+.instagram .images img{
+    width: 31%;
+    aspect-ratio: 1/1;
+    border: 2.5px solid var(--secondary);
+    border-radius: 1.5rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.instagram .images img:hover{
+    transform: scale(1.05);
+}
+
+
+.copyright-payment{
+    padding: 1.5rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright-payment p{
+    font-size: 1.2rem;
+    opacity: 0.6;
+    font-weight: 600;
+}
