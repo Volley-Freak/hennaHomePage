@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hennaHomePage/static/css/main.d86a7dc0.css",
+    "main.js": "/hennaHomePage/static/js/main.9f1d536c.js",
+    "static/js/787.4880023d.chunk.js": "/hennaHomePage/static/js/787.4880023d.chunk.js",
+    "static/media/image4.jpg": "/hennaHomePage/static/media/image4.a98cb13c9987eed46346.jpg",
+    "static/media/image3.jpg": "/hennaHomePage/static/media/image3.9b509de3187ca1a8fc9d.jpg",
+    "static/media/image2.jpg": "/hennaHomePage/static/media/image2.df6cd5f0388b50b2a8f3.jpg",
+    "static/media/image5.jpg": "/hennaHomePage/static/media/image5.5abe1ebd53e00eaa48b5.jpg",
+    "static/media/image6.jpg": "/hennaHomePage/static/media/image6.3cc958f066950f6b3ede.jpg",
+    "static/media/image1.jpg": "/hennaHomePage/static/media/image1.9e7572a99a7a0b2e6f82.jpg",
+    "static/media/item1.png": "/hennaHomePage/static/media/item1.4d3cd0da64804f0c0fd7.png",
+    "static/media/logo.png": "/hennaHomePage/static/media/logo.101de6422e75e24a442e.png",
+    "index.html": "/hennaHomePage/index.html",
+    "main.d86a7dc0.css.map": "/hennaHomePage/static/css/main.d86a7dc0.css.map",
+    "main.9f1d536c.js.map": "/hennaHomePage/static/js/main.9f1d536c.js.map",
+    "787.4880023d.chunk.js.map": "/hennaHomePage/static/js/787.4880023d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d86a7dc0.css",
+    "static/js/main.9f1d536c.js"
+  ]
+}
